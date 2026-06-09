@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="ieQrz5Q7sETpEyVvRKq9">
-    <mxGraphModel dx="1288" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="ZOugqWDiemkIikX99jKK-18" edge="1" parent="1" source="ZOugqWDiemkIikX99jKK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=2;fillColor=#000000;strokeColor=#000000;" target="ZOugqWDiemkIikX99jKK-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZOugqWDiemkIikX99jKK-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#66FF66;rounded=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Start&lt;/font&gt;" vertex="1">
+        <mxCell id="ZOugqWDiemkIikX99jKK-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#66FF66;rounded=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;START&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="140" x="250" y="50" as="geometry" />
         </mxCell>
         <mxCell id="ZOugqWDiemkIikX99jKK-27" edge="1" parent="1" source="ZOugqWDiemkIikX99jKK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#FF66B3;strokeColor=#FF0080;" target="ZOugqWDiemkIikX99jKK-12">
@@ -37,14 +37,14 @@
         <mxCell id="ZOugqWDiemkIikX99jKK-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#FF66B3;rounded=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Output: &lt;/b&gt;original image +&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;basic image parameters&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="490" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="ZOugqWDiemkIikX99jKK-13" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeWidth=2;fillColor=#6666FF;" value="&lt;b&gt;Add random noise:&lt;/b&gt;&lt;div&gt;util.random_noise()&lt;/div&gt;" vertex="1">
+        <mxCell id="ZOugqWDiemkIikX99jKK-13" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeWidth=2;fillColor=#6666FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Add random noise:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;util.random_noise()&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="250" y="260" as="geometry" />
         </mxCell>
         <mxCell id="ZOugqWDiemkIikX99jKK-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#FF66B3;rounded=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Output: &lt;/b&gt;noisy image&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="490" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="ZOugqWDiemkIikX99jKK-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="60" width="140" x="250" y="530" as="geometry" />
+        <mxCell id="ZOugqWDiemkIikX99jKK-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=2;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Thresholding: &lt;/b&gt;Based on visual inspection and trial and error -&amp;gt; compare and decide between Otsu and manual&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="250" y="598" as="geometry" />
         </mxCell>
         <mxCell id="ZOugqWDiemkIikX99jKK-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;TASK 1&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="340" y="120" as="geometry" />
@@ -67,11 +67,11 @@
         <mxCell id="ZOugqWDiemkIikX99jKK-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;TASK 3&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="340" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="ZOugqWDiemkIikX99jKK-25" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeWidth=2;fillColor=#6666FF;" value="&lt;b&gt;Denoise image:&lt;/b&gt;&lt;div&gt;gaussian_kernel()&lt;/div&gt;&lt;div&gt;convolved2d()&lt;/div&gt;" vertex="1">
+        <mxCell id="ZOugqWDiemkIikX99jKK-25" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeWidth=2;fillColor=#6666FF;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Denoise image:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;gaussian_kernel()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;convolved2d()&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="250" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="ZOugqWDiemkIikX99jKK-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#FF66B3;rounded=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Output: &lt;/b&gt;denoised image&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="490" y="360" as="geometry" />
+        <mxCell id="ZOugqWDiemkIikX99jKK-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#FF66B3;rounded=1;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Output: &lt;/b&gt;denoised image&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="490" y="480" as="geometry" />
         </mxCell>
         <mxCell id="ZOugqWDiemkIikX99jKK-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#FF66B3;strokeColor=#FF0080;" target="ZOugqWDiemkIikX99jKK-15">
           <mxGeometry relative="1" as="geometry">
@@ -81,8 +81,47 @@
         </mxCell>
         <mxCell id="ZOugqWDiemkIikX99jKK-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#FF66B3;strokeColor=#FF0080;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="389.38" as="sourcePoint" />
-            <mxPoint x="500" y="390" as="targetPoint" />
+            <mxPoint x="390" y="509.5" as="sourcePoint" />
+            <mxPoint x="500" y="510.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=2;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.5" y="555" as="sourcePoint" />
+            <mxPoint x="319.5" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;TASK 4&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=2;fillColor=#000000;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.5" y="420" as="sourcePoint" />
+            <mxPoint x="319.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-11" edge="1" parent="1" source="vSzLo_sqnfVLzkLWmbeI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZOugqWDiemkIikX99jKK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-17" edge="1" parent="1" source="vSzLo_sqnfVLzkLWmbeI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ZOugqWDiemkIikX99jKK-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeWidth=2;rounded=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Decision:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Based&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;on SSIM,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PSNR -&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;denoising good&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;enough?&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="240" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;&quot;&gt;NO:&amp;nbsp;&lt;/b&gt;Repeat denoising with different Gaussian filter settings&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;YES&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="413.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#FF66B3;rounded=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Output: &lt;/b&gt;binarized image&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="490" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="vSzLo_sqnfVLzkLWmbeI-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#FF66B3;strokeColor=#FF0080;" target="vSzLo_sqnfVLzkLWmbeI-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="627.38" as="sourcePoint" />
+            <mxPoint x="510" y="627.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
